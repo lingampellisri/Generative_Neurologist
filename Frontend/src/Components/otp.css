@@ -1,0 +1,59 @@
+/* OtpVerificationPage.css */
+/* .container {
+    width:200px;
+    background-color: peru;
+    color: black;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 50px 0;
+    height: 50vh;
+    background-image: url("./backgr.png");
+    /* background-size: contain; */
+    /* background-position: center;
+} */ 
+
+/* .con img{
+    width:"50px";
+    height: 100px;
+} */ 
+
+
+.heading {
+    font-size: 24px;
+}
+
+.instructionText {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: 0.8;
+}
+
+.emailInput {
+    max-width: 300px;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 2px solid black; /* Light salmon color */
+    outline: none;
+    opacity: 0.7;
+}
+
+.continueButton {
+    background-color: black; /* Dark orange color */
+    color:white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none; /* Remove default underline for links */
+    display: inline-block; /* Ensure the link is displayed as a block */
+    margin-top: 20px;
+}
+
+.continueButton:hover {
+    background-color: gray; 
+}

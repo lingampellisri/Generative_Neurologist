@@ -1,0 +1,133 @@
+
+
+.box {
+    width: 360px; /* Reduced width for a more compact look */
+    background: linear-gradient(145deg, #e0f7fa, #e5e9ec);
+    color: #333;
+    border-radius: 15px; /* Slightly reduced border radius */
+    padding: 25px 30px; /* Reduced padding for a tighter look */
+    margin-top: 40px; /* Reduced margin-top for less spacing */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Slightly lighter shadow */
+}
+
+
+.box h1 {
+    font-size: 32px; /* Slightly smaller font size */
+    text-align: center;
+    color: #0a74da;
+    margin-bottom: 15px; /* Reduced margin-bottom */
+}
+
+.box .input {
+    position: relative;
+    width: 100%;
+    height: 40px; /* Reduced height for input fields */
+    margin: 20px 0; /* Reduced margin */
+}
+
+.error-message {
+    font-weight: bold;
+    text-decoration: underline;
+    color: red;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Slightly more opaque background */
+    border: 1.5px solid rgba(0, 0, 0, 0.15); /* Reduced border thickness */
+    outline: none;
+    padding-left: 15px; /* Reduced padding for input */
+    border-radius: 20px; /* Slightly smaller border radius */
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+.input input:focus {
+    border-color: #0a74da;
+    box-shadow: 0 0 4px #0a74da; /* Reduced focus shadow size */
+}
+
+.input input::placeholder {
+    color: #888; /* Slightly darker placeholder color */
+}
+
+.input .icon {
+    color: #333;
+    position: absolute;
+    right: 15px; /* Reduced right spacing for the icon */
+    top: 50%;
+    font-size: 16px; /* Slightly smaller icon size */
+    transform: translateY(-50%);
+}
+
+.box .remember {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px; /* Slightly smaller font size */
+    margin: -10px 0 10px; /* Reduced margins */
+}
+
+.remember label input {
+    accent-color: #0a74da;
+    margin-right: 4px;
+}
+
+.remember a {
+    font-weight: 500;
+    color: #0a74da;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.remember a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.box button {
+    width: 100%;
+    height: 40px; /* Reduced height */
+    border: none;
+    background: #0a74da;
+    border-radius: 30px; /* Smaller border radius for the button */
+    cursor: pointer;
+    font-size: 15px; /* Slightly smaller font size */
+    color: #fff;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Reduced shadow for a sleeker look */
+}
+
+.box button:hover {
+    background-color: #0056b3;
+}
+
+.box .register {
+    font-size: 14px; /* Slightly smaller font size */
+    text-align: center;
+    margin: 15px 0 10px; /* Reduced margin */
+    color: #333;
+}
+
+.register p a {
+    color: #0a74da;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+.input a {
+    text-decoration: none;
+}
+
+@media (min-width: 640px) {
+    .max-w-md {
+        max-width: 24rem; /* Slightly reduced max-width for larger screens */
+    }
+}
