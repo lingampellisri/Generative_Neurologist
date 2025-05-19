@@ -29,9 +29,6 @@ This model is used for more accurate segmentation of brain tumors, benefiting fr
 
 📁 README.md — Generative Neurologist
 
-markdown
-Copy
-Edit
 # 🧠 Generative Neurologist
 
 Generative Neurologist is an AI-powered web platform for early detection of brain tumors. It uses advanced deep learning techniques to classify brain MRIs as tumor/non-tumor, and if a tumor is detected, it segments the tumor region using semantic segmentation.
@@ -80,9 +77,7 @@ Generative-Neurologist/
 │
 ├── README.md
 
-yaml
-Copy
-Edit
+
 
 ---
 
@@ -95,18 +90,14 @@ git clone https://github.com/yourusername/Generative-Neurologist.git
 cd Generative-Neurologist
 2️⃣ Run the MERN Stack
 Backend (Node.js)
-bash
-Copy
-Edit
+
 cd server
 npm install
 npm run dev
 This starts the Express server at http://localhost:5000.
 
 Frontend (React)
-bash
-Copy
-Edit
+
 cd client
 npm install
 npm start
@@ -117,27 +108,20 @@ Make sure Python 3.7+ is installed.
 
 Create a virtual environment:
 
-bash
-Copy
-Edit
+
 cd ml-models
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 Start the Flask or FastAPI server to serve the ML models:
 
-bash
-Copy
-Edit
 uvicorn app:app --reload --port 8000
 API will be available at http://localhost:8000.
 
 🧠 Sample Python Code: VGG16 Classification
 📄 ml-models/classify_vgg16.py
 
-python
-Copy
-Edit
+
 import tensorflow as tf
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
@@ -191,19 +175,10 @@ POST	/segment	Returns tumor segmentation
 🤝 Contributing
 We welcome contributions! Please open issues or pull requests.
 
-🧑‍💻 Author
-Developed by [Your Name]
-
-🔗 LinkedIn | 📁 Portfolio | 🌐 GitHub
 
 📜 License
 This project is licensed under the MIT License.
 
-vbnet
-Copy
-Edit
-
-Let me know if you'd like me to generate the app.py (Flask/FastAPI) file for serving the model or the segmentation model code (UNET or UNETR).
 
 
 
