@@ -28,11 +28,6 @@ This model is used for more accurate segmentation of brain tumors, benefiting fr
 
 
 
-
-📁 README.md — Generative Neurologist
-
-# 🧠 Generative Neurologist
-
 Generative Neurologist is an AI-powered web platform for early detection of brain tumors. It uses advanced deep learning techniques to classify brain MRIs as tumor/non-tumor, and if a tumor is detected, it segments the tumor region using semantic segmentation.
 
 ## 🚀 Features
