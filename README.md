@@ -1,4 +1,6 @@
 Generative Neurologist
+
+
 Generative Neurologist is a deep learning-based project that aims to detect the presence of brain tumors and perform tumor segmentation in MRI images. The project uses state-of-the-art models for both classification and segmentation tasks, leveraging deep learning and large language models (LLMs).
 
 Project Overview
