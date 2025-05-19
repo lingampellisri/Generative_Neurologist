@@ -148,9 +148,8 @@ if __name__ == "__main__":
     result = classify_mri("sample_brain_mri.jpg")
     print(result)
 🧾 Requirements.txt (for Python backend)
-txt
-Copy
-Edit
+
+
 tensorflow==2.9.1
 keras==2.9.0
 numpy
@@ -181,13 +180,3 @@ This project is licensed under the MIT License.
 
 
 
-
-
-
-
-
-
-
-
-
-Se
