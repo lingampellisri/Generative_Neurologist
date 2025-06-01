@@ -91,7 +91,7 @@ Generative-Neurologist/
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Generative-Neurologist.git
+git clone https://github.com/lingampellisri/Generative_Neurologist.git
 cd Generative-Neurologist
 ````
 
