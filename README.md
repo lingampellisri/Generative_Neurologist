@@ -11,7 +11,7 @@ This platform performs two primary tasks:
 
 - 🧪 **Brain Tumor Detection:** Classifies MRI images as "Tumor" or "No Tumor".
 - 🧠 **Brain Tumor Segmentation:** Accurately outlines the tumor area in MRI scans.
--  📽️ **Brain Tumor WorkFlow Video : https://drive.google.com/file/d/12AQTNYYxczldGzo3UL87WoyEBdco9HMZ/view?usp=sharing
+- 📽️ **Generative Neurologist Project WorkFlow Demo Video : https://drive.google.com/file/d/12AQTNYYxczldGzo3UL87WoyEBdco9HMZ/view?usp=sharing
 
 ---
 
